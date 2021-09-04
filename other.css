@@ -1,0 +1,102 @@
+body{
+	background-color: #888;
+	color: #ddd;
+}
+
+hr{
+	width: 90%;
+	padding: 0;
+}
+
+img{
+	margin-top: 8px;
+	width: 900px;
+	height: 600px;
+}
+
+i{
+	margin-top: 465px;
+}
+
+h1{
+	margin: 5px;
+	font-size: 25px;
+}
+
+h4.name{
+	font-size: 40px;
+	font-family: 'Parisienne';
+	font-weight: lighter;
+	margin: 5px;
+}
+
+h6.profession{
+	color: #000;
+	font-weight: 400;
+	font-size: 25px;
+	font-family: 'Baskervville';
+	text-align: center;
+	margin: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  outline: 1px solid slategrey;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .3} 
+  to {opacity: 4}
+}
+
+@keyframes fade {
+  from {opacity: .3} 
+  to {opacity: 4}
+}
+
+.formField{
+	font: inherit;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin: 3px 0 10px 0;
+	padding: 3px 0;
+}
+
+textarea.formField{
+	width: 300px;
+	height: 70px;
+}
+
+#sendBtn{
+	cursor:pointer;
+	background: #ccc;
+	background: linear-gradient(#ddd 0, #eee 100%);
+	border: 1px solid #ccc;
+	line-height: 32px;
+	font-size: 14px;
+	padding: 0 25px;
+	border-radius: 3px;
+}
+
+#send_form_status{
+	border: 1px dashed #ccc;
+	display: none;
+	padding: 0 10px;
+	margin: 10px 0;
+}
+
+.status_ok{
+	color: #060;
+}
+
+.status_err{
+	color: #F00;
+};

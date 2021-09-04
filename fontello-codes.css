@@ -1,0 +1,14 @@
+.icon-pinterest:before { content: '\e800'; margin: 30px;} /* '' */
+.icon-calendar:before { content: '\e801'; font-size: 22px;} /* '' */
+.icon-clock:before { content: '\e802'; font-size: 28px;} /* '' */
+.icon-camera:before { content: '\e803'; font-size: 80px; margin-top: 13px; margin-bottom: 5px;} /* '' */
+.icon-mail:before { content: '\e804'; } /* '' */
+.icon-right-open-outline:before { content: '\e805'; font-size: 20px;} /* '' */
+.icon-left-open-outline:before { content: '\e806'; font-size: 20px;} /* '' */
+.icon-picture:before { content: '\e807'; font-size: 80px; margin-top: 13px; margin-bottom: 5px;} /* '' */
+.icon-facebook-circled:before { content: '\f051'; margin: 30px;} /* '' */
+.icon-youtube-play:before { content: '\f16a'; margin: 30px;} /* '' */
+.icon-instagram:before { content: '\f16d'; margin: 30px;} /* '' */
+.icon-commenting-o:before { content: '\f27b';font-size: 80px; margin-top: 13px; margin-bottom: 5px;} /* '' */
+.icon-user-circle-o:before { content: '\f2be'; font-size: 80px; margin-top: 13px; margin-bottom: 5px;} /* '' */
+.icon-dot:before { content: '\e808'; font-size: 20px;} /* '' */

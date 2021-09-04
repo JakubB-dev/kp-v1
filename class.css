@@ -1,0 +1,280 @@
+.mainsq{
+	margin: 20px;
+}
+
+.photos{
+	max-width: 900px;
+	height: 700px;
+	padding: 15px;
+	display: none;
+	margin: auto;
+}
+
+.dot{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.sq1{
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 228px;
+	height: 142px;
+	padding: 5px;
+	background-color: #ddd;
+	color: #333;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Baskervville';
+	font-weight: 400;
+	border: 1px solid black;
+}
+
+.sq1:hover{
+	background-color: #ccc;
+}
+
+a.link2{
+	text-decoration: none;
+	color: #333;
+	display: block;
+	width: 230px;
+	height: 144px;
+}
+
+a.link2:visited{
+	color: #333;
+}
+
+a.link2:hover{
+	color: #fff;
+}
+
+.sq2{
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 228px;
+	height: 142px;
+	background-color: #444;
+	color: #ddd;
+	font-family: 'Baskervville';
+	font-weight: 400;
+	font-size: 30px;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid white;
+}
+
+.sq2:hover{
+	background-color: #555;
+}
+
+a.link3{
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 230px;
+	height: 144px;
+}
+
+a.link3:visited{
+	color: #ddd;
+}
+
+a.link3:hover{
+	color: #222;
+}
+
+.fb{
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 105px;
+	height: 144px;
+	background-color: #3b5998;
+	text-align: center;
+	color: white;
+	padding: 5px;
+	font-size: 75px;
+}
+
+.fb:hover{
+	background-color: 	#2a4887;
+	color: white;
+}
+
+.yt{
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 105px;
+	height: 144px;
+	background-color: #c4302b;
+	color: white;
+	font-size: 75px;
+	text-align: center;
+	padding: 5px;
+}
+
+.yt:hover{
+	background-color: #b3201a;
+	color: white;
+}
+
+.ig{
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 105px;
+	height: 144px;
+	background-color: #833ab4;
+	text-align: center;
+	padding: 5px;
+	font-size: 75px;
+	color: white;
+}
+
+.ig:hover{
+	background-color: #7229a3;
+	color: white;
+}
+
+.pt{
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 105px;
+	height: 144px;
+	background-color: #bd081c;
+	text-align: center;
+	font-size: 75px;
+	color: white;
+	padding: 5px;
+}
+
+.pt:hover{
+	background-color: #ac070b;
+}
+
+a.link1{
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 105px;
+	height: 144px;
+}
+
+a.link1:visited{
+	color: #fff;
+}
+
+a.link1:hover{
+	color: #ddd;
+}
+
+a.link_photos{
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 25px;
+	margin: 5px;
+	color: #bbb;
+}
+
+a.link_photos:visited{
+	color: #aaa;
+}
+
+a.link_photos:hover{
+	color: purple;
+} 
+
+.block_photo{
+	margin: 0 auto;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+img.mini_h{
+	width: 320px;
+	height: 220px;
+	float: left;
+	margin: 10px;
+}
+
+img.mini_v{
+	width: 160px;
+	height: 220px;
+	float: left;
+	margin: 10px;
+}
+
+.active{
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+
+
+.css_anchor_gallery{
+	width: 1000px;    
+	overflow: hidden;
+}
+.css_anchor_gallery .pictures_{
+	list-style-type: none;
+	height: 610px;
+	width: 900px;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+	margin-left: 40px;
+}
+.css_anchor_gallery .pictures_ li{
+	margin: 0;
+	background: none;
+}
+.css_anchor_gallery img{
+	border: 1px solid #000;
+}
+.css_anchor_gallery .thumbnails_{
+	background-color: #444;
+	list-style-type: none;
+	width: 750px;
+	overflow: auto;
+	height: 300px;
+	padding: auto;
+	margin: auto;
+	border: 1px solid #666;
+	box-shadow: 1px 1px 1px #777;
+}
+.css_anchor_gallery .thumbnails_ li{
+	background: none;
+	padding: 0;
+	float: left;
+	margin-top: 15px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+.css_anchor_gallery a{
+	display: block;
+	width: 200px;
+	height: 133.3px;
+}
+.css_anchor_gallery a img{
+	height: 150px;
+	width: 230px;
+	margin: 0;
+}
